@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+.navigation-btn::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #AA00FF;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: .3s;
+    transform: scaleX(0);
+}
+.navigation-btn:hover::after{
+    transform: scaleX(1);
+    box-shadow: 0px 0px 50px 7px rgba(218,0,255,0.75);
+}
+body{
+    background-color: #030712;
+}
+.selected-navigation-btn{
+    color: #AA00FF;
+}
+.selected-navigation-btn::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #AA00FF;
+    position: absolute;
+    bottom: -5px;
+    transition: .3s;
+    left: 0;
+}
+.selected-navigation-btn:hover::after{
+    box-shadow: 0px 0px 50px 7px rgba(218,0,255,0.75);
+}
+.glow{
+    box-shadow: 0px 0px 20px 7px rgba(218,0,255,0.75);
+}
+.glow-hover:hover{
+    box-shadow: 0px 0px 20px 7px rgba(218,0,255,0.75);
+}
+.l-glow:hover {
+    box-shadow: 0px 0px 100px 7px rgba(218,0,255,0.75);
+}
