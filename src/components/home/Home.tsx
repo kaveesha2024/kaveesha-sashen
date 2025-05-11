@@ -51,7 +51,7 @@ const Home: React.FC = () => {
 
           <div data-aos="fade-left" className="flex justify-end items-center  w-[50%] h-full">
             {/*https://cqrpzyugjuvummsuiikf.supabase.co/storage/v1/object/public/images//492256123_636260142550841_8925867104268011929_n.jpg*/}
-            <img className="w-[500px] min-w-[500px] h-[500px] min-h-[500px] rounded-full l-glow transition duration-300 glow"  src="https://img.freepik.com/premium-photo/young-hispanic-athlete-man-happy-expression_1194-224415.jpg?w=1380" alt="imageNotFound" />
+            <img className="w-[500px] min-w-[500px] h-[500px] min-h-[500px] rounded-full l-glow transition duration-300 glow"  src="https://cqrpzyugjuvummsuiikf.supabase.co/storage/v1/object/public/images//492256123_636260142550841_8925867104268011929_n.jpg" alt="imageNotFound" />
           </div>
         </div>
     );

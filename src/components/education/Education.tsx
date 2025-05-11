@@ -18,7 +18,7 @@ const Education: React.FC = () => {
 
             <div data-aos="fade-up">
               <p className="absolute top-0 right-5 font-serif">2017-2019</p>
-              <div className=" w-[400px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[40px] right-5 bg-gray-950">
+              <div className=" w-[500px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[40px] right-5 bg-gray-950">
                 <h4 className="text-lg font-semibold mb-2">Primary Education</h4>
                 <p>Olcotte College Galle</p>
                 <p>Passed G.C.E (Ordinary Level) Examination with</p>
@@ -28,7 +28,7 @@ const Education: React.FC = () => {
 
             <div data-aos="fade-up">
               <p className="absolute top-[390px] font-serif right-5">Year 2023</p>
-              <div className=" w-[400px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute right-5 top-[430px] bg-gray-950">
+              <div className=" w-[500px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute right-5 top-[430px] bg-gray-950">
                 <h4 className="text-lg font-semibold mb-2">Computer Network Technician NVQ Lv-3</h4>
                 <p className="text-justify">In 2024, this certification focuses on the foundational aspects of network
                   technology, including installation, configuration, and basic troubleshooting. It
@@ -39,7 +39,7 @@ const Education: React.FC = () => {
 
             <div data-aos="fade-up">
               <p className="absolute top-[950px] font-serif right-5">Year 2023</p>
-              <div className=" w-[400px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[990px] right-5 bg-gray-950">
+              <div className=" w-[500px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[990px] right-5 bg-gray-950">
                 <h4 className="text-lg font-semibold mb-2">English Course</h4>
                 <p className="text-justify">
                   Successfully completed an English language certification course at Bizes
@@ -51,7 +51,7 @@ const Education: React.FC = () => {
 
             <div data-aos="fade-up">
               <p className="absolute top-[1590px] right-5 font-serif">Year 2025</p>
-              <div className=" w-[400px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[1630px] right-5 bg-gray-950">
+              <div className=" w-[500px] l-glow text-end p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[1630px] right-5 bg-gray-950">
                 <h4 className="text-lg font-semibold mb-2">Full-Stack Developer Program</h4>
                 <p className="text-justify">Currently enrolled in a Full Stack Developer program designed to build expertise
                   in both frontend and backend development. Proficient in frontend technologies
@@ -70,7 +70,7 @@ const Education: React.FC = () => {
               <p className="absolute top-[210px] left-5 font-serif">
                 2020-2022 (2023)
               </p>
-              <div className="w-[400px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[250px] left-5 bg-gray-950">
+              <div className="w-[500px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[250px] left-5 bg-gray-950">
                 <h4 className="text-lg mb-2 font-semibold">
                   Secondary Education
                 </h4>
@@ -81,7 +81,7 @@ const Education: React.FC = () => {
 
             <div data-aos="fade-up">
               <p className="font-serif absolute top-[660px] left-5">Year 2024</p>
-              <div className="w-[400px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[700px] left-5 bg-gray-950">
+              <div className="w-[500px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[700px] left-5 bg-gray-950">
                 <h4 className="text-lg mb-2 font-semibold">Computer Network Technician NVQ Lv-4</h4>
                 <p className="text-justify">
                   completed in 2024, this certification provides in-depth knowledge of
@@ -94,7 +94,7 @@ const Education: React.FC = () => {
 
             <div data-aos="fade-up">
               <p className="font-serif absolute top-[1210px] left-5">2024 (Self Studied)</p>
-              <div className="w-[400px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[1250px] left-5 bg-gray-950">
+              <div className="w-[500px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[1250px] left-5 bg-gray-950">
                 <h4 className="text-lg mb-2 font-semibold">Server management and Administration</h4>
                 <p className="text-justify">
                   Self-studied Ubuntu and CentOS server management and administration,
@@ -107,7 +107,7 @@ const Education: React.FC = () => {
 
               <div data-aos="fade-up">
                 <p className="absolute top-[2040px] left-5 font-serif">Year 2025</p>
-                <div className="w-[400px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[2080px] left-5 bg-gray-950">
+                <div className="w-[500px] l-glow text-start p-4 glow rounded-2xl hover:scale-110 transition duration-300 absolute top-[2080px] left-5 bg-gray-950">
                   <h4 className="text-lg mb-2 font-semibold">ICT Diploma</h4>
                   <p className="text-justify">
                     Currently enrolled in the ICT Diploma program, which was designed to prepare for our higher education.
