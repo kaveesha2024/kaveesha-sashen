@@ -24,7 +24,7 @@ import {
   Git,
   Emailjs,
   Supabase,
-} from "../icons/Icon.tsx";
+} from "../../components/icons/Icon.tsx";
 
 const Skills: React.FC = () => {
   return (
