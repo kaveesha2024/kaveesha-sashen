@@ -2,60 +2,29 @@ import React, { type ChangeEvent, useEffect, useState } from "react";
 import InputField from "./re-usable/InputField.tsx";
 import aos from "aos";
 import "aos/dist/aos.css";
-import emailjs from "@emailjs/browser";
-import toast from "react-hot-toast";
+import sendEmail from "../../utility/api/sendEmailApiCall.ts";
+import type { IInputDetails } from "../../utility/types/contact";
+
 const Contact: React.FC = () => {
   useEffect(() => {
     aos.init({ duration: 1000 });
   }, []);
-  const [inputDetails, setInputDetails] = useState({
+  const [inputDetails, setInputDetails] = useState<IInputDetails>({
     fullName: "",
     email: "",
     phoneNumber: "",
     subject: "",
     message: "",
   });
-  console.log(inputDetails);
-  const handleInput = (event: ChangeEvent<HTMLInputElement>) => {
+  const handleInput = (event: ChangeEvent<HTMLInputElement>): void => {
     const { name, value } = event.target;
     setInputDetails({
       ...inputDetails,
       [name]: value,
     });
   };
-  const handleSubmit = async () => {
-    try {
-      const apiToast = toast.loading("Sending Message...");
-      const response = await emailjs.send(
-        "service_3zgefe2",
-        "template_j0zm26u",
-        {
-          fullName: inputDetails.fullName,
-          email: inputDetails.email,
-          phoneNumber: inputDetails.phoneNumber,
-          subject: inputDetails.subject,
-          message: inputDetails.message,
-        },
-        "elF_g9pOU4aRlz1HA",
-      );
-      toast.dismiss(apiToast);
-      if (response.status === 200) {
-        toast.success("Message Sent Successfully");
-        setInputDetails(
-          {
-            fullName: "",
-            email: "",
-            phoneNumber: "",
-            subject: "",
-            message: "",
-          },
-        )
-      }else {
-        toast.error("Message Failed to Send");
-      }
-    } catch (err) {
-      console.log(err);
-    }
+  const handleSubmit = async (): Promise<void> => {
+    await sendEmail(inputDetails, setInputDetails);
   };
   return (
     <div className="text-white pt-30 p-20">
