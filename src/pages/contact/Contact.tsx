@@ -3,7 +3,7 @@ import InputField from "./re-usable/InputField.tsx";
 import aos from "aos";
 import "aos/dist/aos.css";
 import sendEmail from "../../utility/api/sendEmailApiCall.ts";
-import type { IInputDetails } from "../../utility/types/contact";
+import type { IInputDetails } from "../../utility/types/types";
 
 const Contact: React.FC = () => {
   useEffect(() => {

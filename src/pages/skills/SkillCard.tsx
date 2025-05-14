@@ -1,11 +1,8 @@
 import React, { useEffect } from "react";
 import aos from "aos";
 import 'aos/dist/aos.css';
+import type { ISkillCard } from "../../utility/types/types";
 
-interface ISkillCard {
-  name: string;
-  Icon: React.FC
-}
 const SkillCard: React.FC <ISkillCard> = ({ name, Icon }) => {
   useEffect(() => {
     aos.init({

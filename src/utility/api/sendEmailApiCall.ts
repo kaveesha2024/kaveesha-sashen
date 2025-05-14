@@ -1,6 +1,6 @@
 import toast from "react-hot-toast";
 import emailjs from "@emailjs/browser";
-import type { IInputDetails } from "../types/contact";
+import type { IInputDetails } from "../types/types";
 
 const sendEmail = async (inputDetails: IInputDetails, setInputDetails: (value: (((prevState: IInputDetails) => IInputDetails) | IInputDetails)) => void) => {
   try {
